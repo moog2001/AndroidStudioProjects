@@ -1,0 +1,4 @@
+#Sat Apr 02 01:33:25 ULAT 2022
+base.0=C\:\\Users\\Moogf\\AndroidStudioProjects\\Lab3\\SimpleCalc\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

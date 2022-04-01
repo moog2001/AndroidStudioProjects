@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CounterHomework</string>
+    <string name="button_count">COUNT</string>
+    <string name="button_count_land">COUNT LAND</string>
+</resources>
