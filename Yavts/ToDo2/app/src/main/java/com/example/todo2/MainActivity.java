@@ -1,21 +1,14 @@
 package com.example.todo2;
 
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-
-import com.google.android.material.snackbar.Snackbar;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
 
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 import androidx.recyclerview.widget.DefaultItemAnimator;
-import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -25,6 +18,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import java.util.ArrayList;
+import java.util.ListIterator;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -36,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RecyclerAdapter adapter;
     public DataBaseHandler dataBaseHandler;
-
 
 
     @Override
@@ -73,12 +66,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void resetView(){
+    public void resetView() {
         int lastItem = adapter.getItemCount();
         adapter.notifyItemChanged(lastItem);
     }
 
-    public void resetViewOnDelete(int position){
+    public void resetViewOnDelete(int position) {
         dataBaseHandler.deleteData(List.get(position));
         adapter.notifyItemRemoved(position);
     }
@@ -98,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_not_done) {
             return true;
         }
 
@@ -110,6 +103,34 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
 //        outState.putStringArrayList("list", mWordList);
     }
+
+    public void DoneOnClick(MenuItem item) {
+
+        for (ToDoItem name : new ArrayList<ToDoItem>(List)) {
+            // Do something
+            if (name.getStatus() != 1) {
+                List.remove(name);
+            }
+        }
+        adapter.notifyDataSetChanged();
+    }
+
+    public void NotDoneOnClick(MenuItem item) {
+        for (ToDoItem name : new ArrayList<ToDoItem>(List)) {
+            // Do something
+            if (name.getStatus() != 0) {
+                List.remove(name);
+            }
+        }
+        adapter.notifyDataSetChanged();
+    }
+
+    public void allOnClick(MenuItem item) {
+        List = dataBaseHandler.getToDoItemList();
+        adapter.notifyDataSetChanged();
+    }
+
+
 
 
    /* @Override

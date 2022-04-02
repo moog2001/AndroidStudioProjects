@@ -45,11 +45,6 @@ public class PopUpDialog extends DialogFragment {
         container.addView(datePicker);
         container.setOrientation(LinearLayout.VERTICAL);
 
-        int day = datePicker.getDayOfMonth();
-        int month = datePicker.getMonth()+1;
-        int year = datePicker.getYear();
-
-        LocalDate date = LocalDate.of(year, month, day);
 
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         builder.setTitle(R.string.dialog_title)
@@ -59,6 +54,11 @@ public class PopUpDialog extends DialogFragment {
                         if(editText.getText() == null){
                             return;
                         }
+                        int day = datePicker.getDayOfMonth();
+                        int month = datePicker.getMonth()+1;
+                        int year = datePicker.getYear();
+
+                        LocalDate date = LocalDate.of(year, month, day);
                         ToDoItem item = new ToDoItem(editText.getText().toString(), 0,date, DB );
                         List.add(item);
                         Parent.resetView();

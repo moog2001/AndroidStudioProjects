@@ -10,7 +10,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
+import android.widget.DatePicker;
+import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -19,7 +22,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.sql.SQLException;
 import java.text.ParseException;
+import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Date;
 
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyViewHolder> {
 
@@ -48,12 +53,14 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
             imgDate = viewMain.findViewById(R.id.imgDate);
             imgDelete = viewMain.findViewById(R.id.imgDelete);
 
+
+
             MyViewHolder item = this;
-            viewMain.setOnClickListener(new View.OnClickListener() {
+            viewMain.setOnLongClickListener(new View.OnLongClickListener() {
                 @Override
-                public void onClick(View view) {
-                    Log.d("position recycle", String.valueOf(item.getLayoutPosition()));
-                    ItemIndex = item.getLayoutPosition();
+                public boolean onLongClick(View v) {
+                    // TODO Auto-generated method stub
+                    return true;
                 }
             });
         }
@@ -71,15 +78,23 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerAdapter.MyViewHolder holder, int position) {
+        ToDoItem Item = ItemList.get(holder.getAdapterPosition());
         String toDo = ItemList.get(position).getToDO();
+
         holder.toDoText.setText(toDo);
+        if(Item.getStatus()==1){
+            holder.cbCheckBox.setChecked(true);
+        }else{
+            holder.cbCheckBox.setChecked(false);
+        }
+
         AlertDialog.Builder alertDialogBuilder =
                 new AlertDialog.Builder(ParentContext)
                         .setTitle("Delete Item?")
                         .setPositiveButton("DELETE", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 Log.d("test", String.valueOf(holder.getAdapterPosition()));
-                                Data.deleteData(ItemList.get(holder.getAdapterPosition()));
+                                Data.deleteData(Item);
                                 ItemList.remove(holder.getAdapterPosition());
                                 notifyItemRemoved(holder.getAdapterPosition());
                             }
@@ -91,6 +106,13 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
                         });
 
 
+        AlertDialog.Builder alertDialogBuilder1 =
+                new AlertDialog.Builder(ParentContext)
+                        .setTitle("End Date");
+        TextView tvDate = new TextView(alertDialogBuilder1.getContext());
+        tvDate.setText(Item.getEndDate().toString());
+        alertDialogBuilder1.setView(tvDate);
+        tvDate.setPadding(100, 0, 0, 0);
 
         MyViewHolder viewHolder = (MyViewHolder) holder;
 
@@ -110,6 +132,82 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
 //                notifyItemRangeChanged(holder.getAdapterPosition(), getItemCount());
 
 
+            }
+        });
+
+        viewHolder.imgDate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                alertDialogBuilder1.show();
+            }
+        });
+
+        viewHolder.cbCheckBox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                boolean checked = ((CheckBox) viewHolder.cbCheckBox).isChecked();
+
+                if (checked) {
+                    Log.d("check", "checked!");
+                    Item.setStatus(1);
+
+                }
+                else{
+                    Log.d("check", "not checked!");
+
+                    Item.setStatus(0);
+                }
+                Data.updateData(Item);
+
+                // Check which checkbox was clicked
+            }
+        });
+
+        EditText editTextToDo = new EditText(ParentContext);
+        DatePicker datePicker = new DatePicker(ParentContext);
+
+        LinearLayout container = new LinearLayout(ParentContext);
+        container.addView(editTextToDo);
+        container.addView(datePicker);
+        container.setOrientation(LinearLayout.VERTICAL);
+
+        AlertDialog.Builder alertDialogBuilder2 =
+                new AlertDialog.Builder(ParentContext)
+                        .setTitle("Change To Do")
+                        .setView(container)
+                        .setPositiveButton("Change", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+
+                                if(editTextToDo.getText() == null){
+                                    return;
+                                }
+                                Item.setToDO(editTextToDo.getText().toString());
+
+                                int day = datePicker.getDayOfMonth();
+                                int month = datePicker.getMonth()+1;
+                                int year = datePicker.getYear();
+
+                                LocalDate date = LocalDate.of(year, month, day);
+
+                                Item.setEndDate(date);
+
+                                Data.updateData(Item);
+                                notifyItemChanged(holder.getAdapterPosition());
+
+                            }
+                        })
+                        .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                dialog.cancel();
+                            }
+                        });
+        viewHolder.toDoText.setOnLongClickListener(new View.OnLongClickListener() {
+
+            public boolean onLongClick(View v) {
+                // TODO Auto-generated method stub
+                Log.d("tv", "clicked");
+                alertDialogBuilder2.show();
+                return true;
             }
         });
 
