@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
 
     private ArrayList<ToDoItem> List;
 
-
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
     private RecyclerView recyclerView;
@@ -64,14 +63,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        adapter = new RecyclerAdapter(List, MainActivity.this);
+        adapter = new RecyclerAdapter(List, dataBaseHandler, MainActivity.this);
         recyclerView = findViewById(R.id.rvToDo);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(adapter);
-
-
 
     }
 
@@ -82,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void resetViewOnDelete(int position){
+        dataBaseHandler.deleteData(List.get(position));
         adapter.notifyItemRemoved(position);
     }
 

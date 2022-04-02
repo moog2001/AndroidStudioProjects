@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.ContactsContract;
 import android.provider.SyncStateContract;
+import android.util.Log;
 
 import androidx.annotation.Nullable;
 
@@ -21,6 +22,8 @@ public class DataBaseHandler extends SQLiteOpenHelper {
 
     public DataBaseHandler(@Nullable Context context){
         super(context, Constants.DATABASE_NAME,  null, Constants.DATABASE_VER);
+        SQLiteDatabase db = this.getWritableDatabase();
+//        db.delete(Constants.TABLE_NAME, null, null);
     }
 
     @Override
@@ -99,6 +102,9 @@ public class DataBaseHandler extends SQLiteOpenHelper {
             return toDoItems ;
         }
         else{
+            Log.d("cursor", String.valueOf(cursor.getCount()));
+            cursor.getPosition();
+
             while(cursor.moveToNext()){
                 ToDoItem toDoItem = new ToDoItem();
                 toDoItem.setID(cursor.getInt(0));
@@ -107,6 +113,8 @@ public class DataBaseHandler extends SQLiteOpenHelper {
                 toDoItem.setEndDate(LocalDate.parse(cursor.getString(3)));
                 toDoItems.add(toDoItem);
             }
+
+
         }
         DB.close();
         return toDoItems;
