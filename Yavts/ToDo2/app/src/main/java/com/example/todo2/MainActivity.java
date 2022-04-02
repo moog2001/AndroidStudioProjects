@@ -105,6 +105,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void DoneOnClick(MenuItem item) {
+        List = dataBaseHandler.getToDoItemList();
 
         for (ToDoItem name : new ArrayList<ToDoItem>(List)) {
             // Do something
@@ -116,7 +117,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void NotDoneOnClick(MenuItem item) {
+        List = dataBaseHandler.getToDoItemList();
+
         for (ToDoItem name : new ArrayList<ToDoItem>(List)) {
+
             // Do something
             if (name.getStatus() != 0) {
                 List.remove(name);
