@@ -31,7 +31,7 @@ public class Calculator {
         return firstOperand + secondOperand;
     }
 
-    /**
+    /*
      * Subtract operation
      */
     public double sub(double firstOperand, double secondOperand) {
