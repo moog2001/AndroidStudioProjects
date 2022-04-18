@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.todo2.MainActivity">
+    <item
+        android:id="@+id/action_done"
+        android:onClick="DoneOnClick"
+        android:orderInCategory="100"
+        android:title="@string/action_done"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_not_done"
+        android:onClick="NotDoneOnClick"
+        android:orderInCategory="100"
+        android:title="@string/action_not_done"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_all"
+        android:onClick="allOnClick"
+        android:title="@string/action_all" />
+</menu>

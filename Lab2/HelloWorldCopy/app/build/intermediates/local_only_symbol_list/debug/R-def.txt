@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color gray
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id Zero
+id button_count
+id button_toast
+id guideline2
+id guideline3
+id guideline4
+id linearLayout
+id linearLayout2
+id show_count
+id textView
+id textView2
+layout activity_main
+layout activity_main2
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string button_label_count
+string button_label_toast
+string count_initial_value
+string toast_message
+string tvHello
+string zero
+style Theme.HelloWorld
