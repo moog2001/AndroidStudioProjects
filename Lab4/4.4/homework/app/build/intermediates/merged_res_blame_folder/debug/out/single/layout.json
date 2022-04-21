@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Moogf\\AndroidStudioProjects\\Lab4\\4.4\\homework\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_donut.xml",
+        "source": "C:\\Users\\Moogf\\AndroidStudioProjects\\Lab4\\4.4\\homework\\app\\src\\main\\res\\layout\\activity_donut.xml"
+    },
+    {
+        "merged": "C:\\Users\\Moogf\\AndroidStudioProjects\\Lab4\\4.4\\homework\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Moogf\\AndroidStudioProjects\\Lab4\\4.4\\homework\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Moogf\\AndroidStudioProjects\\Lab4\\4.4\\homework\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ice_cream.xml",
+        "source": "C:\\Users\\Moogf\\AndroidStudioProjects\\Lab4\\4.4\\homework\\app\\src\\main\\res\\layout\\activity_ice_cream.xml"
+    },
+    {
+        "merged": "C:\\Users\\Moogf\\AndroidStudioProjects\\Lab4\\4.4\\homework\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "C:\\Users\\Moogf\\AndroidStudioProjects\\Lab4\\4.4\\homework\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Moogf\\AndroidStudioProjects\\Lab4\\4.4\\homework\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_froyo.xml",
+        "source": "C:\\Users\\Moogf\\AndroidStudioProjects\\Lab4\\4.4\\homework\\app\\src\\main\\res\\layout\\activity_froyo.xml"
+    }
+]

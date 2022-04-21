@@ -1,0 +1,4 @@
+1.• app:layout_constraintBottom_toTopOf="@+id/button_count"• app:layout_constraintTop_toBottomOf="@+id/button_toast"
+2.• app:layout_constraintLeft_toLeftOf="parent"
+3.• public void callMethod(View view)
+4.Нэг дүгээр аргыг сонгов.view.setBackgroundColor() method-оор шууд button_count ын view-ийгfindViewById-ыг ашиглахгүйгээр countUp() дотроо өөрчлөх боломжтой ч view ньөөрөө private хандалтын түвшинд байгаа тул хэрэглэгчид харагдах зүйлсийн утгыгшинэчлэх кодыг countUp()-д view-д зориулж дахин хийх хэрэгтэй болно(Учир ньZero гээд өөр button бас шинэчлэх үйлдэлтэй). Үүний оронд хэрэглэгчид харагдахзүйлсийг бүдгийг нь шинэчилдэг нэг функц үүсгээд түүндээрээ ямар ямарView-үүдийг шинэчлэхээ findViewById-аар олон ажиллавал бага кодоор илүү үрдүнтэй ажиллана.
