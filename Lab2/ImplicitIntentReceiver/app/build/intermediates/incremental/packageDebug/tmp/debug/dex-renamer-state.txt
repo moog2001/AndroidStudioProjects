@@ -1,4 +1,4 @@
-#Sat Apr 02 01:07:59 ULAT 2022
+#Fri Apr 22 10:15:24 ULAT 2022
 base.2=C\:\\Users\\Moogf\\AndroidStudioProjects\\Lab2\\ImplicitIntentReceiver\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
 path.2=9/classes.dex
 base.1=C\:\\Users\\Moogf\\AndroidStudioProjects\\Lab2\\ImplicitIntentReceiver\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

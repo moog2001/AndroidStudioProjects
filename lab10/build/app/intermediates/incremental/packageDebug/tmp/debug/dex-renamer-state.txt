@@ -1,4 +1,4 @@
-#Fri Apr 15 10:14:05 ULAT 2022
+#Fri Apr 22 10:52:45 ULAT 2022
 base.0=C\:\\Users\\Moogf\\AndroidStudioProjects\\lab10\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

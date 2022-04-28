@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Language Card</string>
+    <string name="add">НЭМЭХ</string>
+    <string name="update">ШИНЭЧЛЭХ</string>
+    <string name="delete">УСТГАХ</string>
+    <string name="before">ӨМНӨХ</string>
+    <string name="next">ДАРААХ</string>
+    <string name="english">English</string>
+    <string name="Mongolian">Монгол хэл</string>
+    <string name="insert">ОРУУЛАХ</string>
+    <string name="cancel">БОЛИХ</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_file">Add File</string>
+</resources>

@@ -6,65 +6,65 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="27"
-8-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml
+8-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml
+9-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:5:5-34:19
+11-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:5:5-34:19
 12        android:allowBackup="true"
-12-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.7.0] C:\Users\Moogf\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@mipmap/ic_launcher"
-16-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:7:9-43
+16-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:7:9-43
 17        android:label="@string/app_name"
-17-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:8:9-41
+17-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:8:9-41
 18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:9:9-54
+18-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:9:9-54
 19        android:supportsRtl="true"
-19-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:10:9-35
+19-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:10:9-35
 20        android:testOnly="true"
 21        android:theme="@style/Theme.TwoActivities" >
-21-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:11:9-51
+21-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:11:9-51
 22        <activity
-22-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:12:9-14:40
+22-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:12:9-14:40
 23            android:name="com.example.twoactivities.Test"
-23-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:13:13-33
+23-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:13:13-33
 24            android:exported="false" />
-24-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:14:13-37
+24-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:14:13-37
 25        <activity
-25-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:15:9-24:20
+25-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:15:9-24:20
 26            android:name="com.example.twoactivities.SecondActivity"
-26-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:16:13-43
+26-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:16:13-43
 27            android:label="@string/activity2_name"
-27-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:17:13-51
+27-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:17:13-51
 28            android:parentActivityName="com.example.twoactivities.MainActivity" >
-28-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:18:13-55
+28-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:18:13-55
 29            <meta-data
-29-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:20:13-23:19
+29-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:20:13-23:19
 30                android:name="android.support.PARENT_ACTIVITY"
-30-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:21:17-63
+30-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:21:17-63
 31                android:value="com.example.twoactivities.MainActivity" />
-31-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:22:17-71
+31-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:22:17-71
 32        </activity>
 33        <activity
-33-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:25:9-33:20
+33-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:25:9-33:20
 34            android:name="com.example.twoactivities.MainActivity"
-34-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:26:13-41
+34-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:26:13-41
 35            android:exported="true" >
-35-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:27:13-36
+35-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:27:13-36
 36            <intent-filter>
-36-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:28:13-32:29
+36-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:28:13-32:29
 37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:29:17-69
-37-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:29:25-66
+37-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:29:17-69
+37-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:29:25-66
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:31:17-77
-39-->C:\Users\Moogf\OneDriveNUM\works\GitHub\AndroidStudioProjects\TwoActivities\app\src\main\AndroidManifest.xml:31:27-74
+39-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:31:17-77
+39-->C:\Users\Moogf\AndroidStudioProjects\Lab2\TwoActivities\app\src\main\AndroidManifest.xml:31:27-74
 40            </intent-filter>
 41        </activity>
 42

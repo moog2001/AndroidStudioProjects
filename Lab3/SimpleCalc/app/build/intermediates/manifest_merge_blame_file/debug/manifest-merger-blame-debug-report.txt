@@ -36,23 +36,22 @@
 30-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:23:9-41
 31        android:supportsRtl="true"
 31-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:24:9-35
-32        android:testOnly="true"
-33        android:theme="@style/AppTheme" >
-33-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:25:9-40
-34        <activity android:name="com.example.android.SimpleCalc.MainActivity" >
-34-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:26:9-31:20
-34-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:26:19-77
-35            <intent-filter>
-35-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:27:13-30:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:28:17-69
-36-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:28:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:29:17-77
-38-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:29:27-74
-39            </intent-filter>
-40        </activity>
-41    </application>
-42
-43</manifest>
+32        android:theme="@style/AppTheme" >
+32-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:25:9-40
+33        <activity android:name="com.example.android.SimpleCalc.MainActivity" >
+33-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:26:9-31:20
+33-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:26:19-77
+34            <intent-filter>
+34-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:27:13-30:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:28:17-69
+35-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:28:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:29:17-77
+37-->C:\Users\Moogf\AndroidStudioProjects\Lab3\SimpleCalc\app\src\main\AndroidManifest.xml:29:27-74
+38            </intent-filter>
+39        </activity>
+40    </application>
+41
+42</manifest>

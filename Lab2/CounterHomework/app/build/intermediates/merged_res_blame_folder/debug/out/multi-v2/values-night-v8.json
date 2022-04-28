@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Moogf\\AndroidStudioProjects\\CounterHomework\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\Moogf\\AndroidStudioProjects\\Lab2\\CounterHomework\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\Moogf\\AndroidStudioProjects\\CounterHomework\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "824"
-                    },
-                    "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "732",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "1454"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Moogf\\.gradle\\caches\\transforms-3\\f791586eb8e3cddcf33fb36842d7675a\\transformed\\appcompat-1.4.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
@@ -54,6 +35,25 @@
                         "startOffsets": "1459,1534,1645,1734,1835,1942,2049,2148,2251,2339,2463,2565,2667,2783,2885,2999,3127,3243,3365,3501,3621,3755,3875,3987,4202,4319,4443,4573,4695,4833,4967,5083",
                         "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "1529,1640,1729,1830,1937,2044,2143,2246,2334,2458,2560,2662,2778,2880,2994,3122,3238,3360,3496,3616,3750,3870,3982,4108,4314,4438,4568,4690,4828,4962,5078,5198"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Moogf\\AndroidStudioProjects\\Lab2\\CounterHomework\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "824"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "732",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "1454"
                     }
                 }
             ]
