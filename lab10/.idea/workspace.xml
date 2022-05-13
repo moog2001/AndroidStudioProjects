@@ -5,7 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="440d1b27-fcc0-46e1-a584-0c0fccc2e663" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../WeatherUpdate/app/src/main/java/com/example/weatherupdate/DayTempItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WeatherUpdate/app/src/main/java/com/example/weatherupdate/WeatherListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WeatherUpdate/app/src/main/res/layout/weather_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WeatherUpdate/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/4.5/task1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/4.5/task1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/4.5/task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/4.5/task1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/4.5/task1/app/src/main/java/com/example/todo2/WordListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/4.5/task1/app/src/main/java/com/example/todo2/WordListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WeatherUpdate/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WeatherUpdate/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WeatherUpdate/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WeatherUpdate/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WeatherUpdate/app/src/main/java/com/example/weatherupdate/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WeatherUpdate/app/src/main/java/com/example/weatherupdate/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WeatherUpdate/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WeatherUpdate/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d63a9322895dacdce9ec2b47722d394f/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/d63a9322895dacdce9ec2b47722d394f/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d63a9322895dacdce9ec2b47722d394f/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/d63a9322895dacdce9ec2b47722d394f/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d63a9322895dacdce9ec2b47722d394f/kernel_snapshot.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d63a9322895dacdce9ec2b47722d394f/outputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/d63a9322895dacdce9ec2b47722d394f/outputs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab5/app/src/main/java/com/example/languagecard/LanguageCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/app/src/main/java/com/example/languagecard/LanguageCard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +53,6 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -53,5 +79,16 @@
       <updated>1649986220209</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

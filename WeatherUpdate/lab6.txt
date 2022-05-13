@@ -1,0 +1,11 @@
+1.Ямар үед нэмэлт thread үүсгэн ажиллуулаххэрэгтэй вэ?
+network operations, long calculation, downloading files, processing files, loading data
+2.AsyncTask-г ашиглаж байх үед doInBackground()дамжуулж буй өгөгдлийн төрлийг хаана зааж өгөх вэ? Юунд хэрэглэгдэх вэ?
+class shineer hiij bhdaa extends AsyncTasl<> deer torluude todorhoilj ogno.
+method uuda daraa n implement hiihde tuhain utgiig butsaadag bh.
+3.doInBackground()дээрх үйлдэл хийгдэж дуусаад ямар төрлийн өгөгдөл буцаахыг хаана зааж өгдөг вэ?
+method impletement hiij bhda urd n butsaah urta gn todorhoilj ogoh heregtei mon class shineer neehde bas todorhoiloh shaardlagatai
+4.AsyncTask-аар гүйцэтгэсэн ажлын явцын талаар мэдээлэхийн авахын тулд яах хэрэгтэй вэ?
+onProcessUpdate deer async task s update ireh uyd main thread der ug method maani ajillana.
+5.Андройд хөгжүүлэлт дээр Broadcast гэж юу вэ?Ямар ямар үед ашиглагддаг вэ?
+system n hemjee nd medeelel taraah, jisheelbel utas tsenegleh, internet d holbodgoh zereg app d heregtei bj boloh medeelluud.

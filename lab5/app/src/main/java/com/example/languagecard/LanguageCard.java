@@ -10,11 +10,9 @@ public class LanguageCard extends Application {
         public void onCreate() {
             super.onCreate();
             dataBaseHandler = new DataBaseHandler(this);
-
         }
 
         public DataBaseHandler getDataBaseHandler() {
             return dataBaseHandler;
-
         }
 }

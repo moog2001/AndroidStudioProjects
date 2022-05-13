@@ -29,6 +29,16 @@ class MyApp extends StatelessWidget {
   }
 }
 
+class RowElementWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [Text("test"), Text("testes")]));
+  }
+}
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
 
@@ -49,6 +59,8 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final Color subColor = const Color.fromRGBO(55, 137, 131, 1);
+
+  int buttonSelected = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -148,34 +160,58 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       TextButton(
                           onPressed: () {
-
+                            setState(() {
+                              buttonSelected = 0;
+                            });
                           },
-                          style: ButtonStyle(
-                              padding: MaterialStateProperty.all(
-                                  const EdgeInsets.symmetric(horizontal: 25)),
-                              shape: MaterialStateProperty.all(
-                                  RoundedRectangleBorder(
-                                      borderRadius:
-                                          BorderRadius.circular(10)))),
-                          child: const Text('Transactions',
-                              style: TextStyle(color: Colors.black))),
+                          style: buttonSelected == 0
+                              ? ButtonStyle(
+                                  backgroundColor: MaterialStateProperty.all<Color>(
+                                      Colors.white),
+                                  padding: MaterialStateProperty.all(
+                                      const EdgeInsets.symmetric(
+                                          horizontal: 25)),
+                                  shape: MaterialStateProperty.all(
+                                      RoundedRectangleBorder(
+                                          borderRadius:
+                                              BorderRadius.circular(10))))
+                              : ButtonStyle(
+                                  backgroundColor: MaterialStateProperty.all<Color>(
+                                      const Color.fromRGBO(244, 246, 246, 1)),
+                                  padding: MaterialStateProperty.all(
+                                      const EdgeInsets.symmetric(horizontal: 25)),
+                                  shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)))),
+                          child: const Text('Transactions', style: TextStyle(color: Colors.black))),
                       TextButton(
                           onPressed: () {
-
+                            setState(() {
+                              buttonSelected = 1;
+                            });
                           },
-                          style: ButtonStyle(
-                              backgroundColor: MaterialStateProperty.all<Color>(
-                                  Colors.white),
-                              padding: MaterialStateProperty.all(
-                                  const EdgeInsets.symmetric(horizontal: 25)),
-                              shape: MaterialStateProperty.all(
-                                  RoundedRectangleBorder(
-                                      borderRadius:
-                                          BorderRadius.circular(10)))),
-                          child: const Text('Upcoming Bills',
-                              style: TextStyle(color: Colors.black)))
+                          style: buttonSelected == 1
+                              ? ButtonStyle(
+                                  backgroundColor: MaterialStateProperty.all<Color>(
+                                      Colors.white),
+                                  padding: MaterialStateProperty.all(
+                                      const EdgeInsets.symmetric(
+                                          horizontal: 25)),
+                                  shape: MaterialStateProperty.all(
+                                      RoundedRectangleBorder(
+                                          borderRadius:
+                                              BorderRadius.circular(10))))
+                              : ButtonStyle(
+                                  backgroundColor: MaterialStateProperty.all<Color>(
+                                      const Color.fromRGBO(244, 246, 246, 1)),
+                                  padding: MaterialStateProperty.all(
+                                      const EdgeInsets.symmetric(horizontal: 25)),
+                                  shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)))),
+                          child: const Text('Upcoming Bills', style: TextStyle(color: Colors.black)))
                     ],
                   ),
+                ),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [RowElementWidget(), RowElementWidget()],
                 )
               ],
             ),
