@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1035825268227",
+    "firebase_url": "https://exam-1688d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "exam-1688d",
+    "storage_bucket": "exam-1688d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035825268227:android:e0b34ae6d628d712cfb036",
+        "android_client_info": {
+          "package_name": "com.example.exam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035825268227-vtgb73jd89mfve2cfm6tbug13tiqma26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_9SCM_88tifj7ZPUFuS82oXTQJmdsOLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035825268227-vtgb73jd89mfve2cfm6tbug13tiqma26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
